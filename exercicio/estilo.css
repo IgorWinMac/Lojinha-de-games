@@ -1,0 +1,130 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(img/fundo4.webp);
+}
+
+.cartao1 {
+    display: inline-block;
+}
+
+.cartao2 {
+    display: inline-block;
+    padding: 20px;
+    padding-right: 25px;
+}
+
+.cartao3 {
+    display: inline-block;
+    padding: 20px;
+    padding-right: 25px;
+}
+
+.cartao3 {
+	  max-width: 200px;
+      margin: 50px;
+      transform:  rotate(360deg);
+      transition-duration: 3s;
+}
+
+.pessoais {
+	background-color: #33C7FF;
+	text-align: center;
+}
+
+.endereco {
+	background-color: #33C7FF;
+	text-align: center;
+}
+
+.tabela {
+	position: justify;
+	table-layout: fixed;
+}
+
+.botao-enviar {
+	position: right;
+	background-color: #00CC00;
+	padding: 10px;
+	float: right;
+}
+
+.botao-limpar {
+	position: right;
+	background-color: orange;
+	padding: 10px;
+	float: right;
+	margin-right: 15px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+.cartao2 p {
+    color: black;
+    text-align: center;
+}
+
+.cartao2:hover {
+    transition: transform .2s;
+    transform: scale(1.3);
+}
+
+.contato {
+	   background-image: url(img/correio.webp);
+}
+
+.foto {
+    border: 1px solid silver;
+    border-radius: 45px;
+    padding-left: 30px;
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 10px;
+    padding: 30px;
+}
+
+.mapa {
+   padding-bottom: 90px;
+}
+
+.menu {
+    background-color: silver;
+	border-radius: 5px;
+}
+
+.menu li {
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+}
+
+.menu li a {
+    display: inline-block;
+	transition: background .6s;
+    padding: 20px;
+}
+
+.menu li a:hover {
+	background-color: rgb(24,139,233);
+}
+
+.rodape{
+    text-align: center;
+	color: blue;
+}
+
+.pe {
+    background-color: silver;
+    padding: 15px;
+	margin-top: 10px;
+	border-radius: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 98%;
+}
